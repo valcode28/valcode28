@@ -1,0 +1,38 @@
+header,
+button {
+    background-color: green;
+    color: white;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+section,
+header {
+    padding: 0.2rem;
+}
+
+section {
+    border: 2px solid green;
+    width: fit-content;
+}
+
+input {
+    width: 15rem;
+}
+
+button,
+input {
+    height: 2rem;
+}
